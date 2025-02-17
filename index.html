@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prata&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo_header">
+            <a href="#">
+                <img src="/img/logo.svg" alt="logo">
+            </a>
+        </div>
+    </div>
+    <div class="mainbanner_block">
+        <div class="mainbanner_wrapper container">
+            <div class="mainbanner_text_wrapper">
+                <div class="mainbanner_text">
+                    Экономия нервов и денег — интернет К-Телеком
+                </div>
+                <div class="mainbanner_list">
+                    <ul>
+                        <li>5 тарифов для многоквартирных и 4 для частных домов</li>
+                        <li>безлимит подключенных устройств</li>
+                        <li>комфортная поддержка 24/7</li>
+                    </ul>
+                </div>
+                <div class="btn">
+                    <a href="#slide1"><button>Подробнее</button></a>
+                </div>
+            </div>
+            <div class="mainbanner_img">
+                <img src="img/mainbanner.png" alt="mainbanner_img">
+            </div>
+        </div>
+    </div>
+    <div class="rate_block container" id="#rate_block">
+        <div class="rate_block_up_text">
+            Тарифные Планы
+        </div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" id="slide1" data-slide="1">
+                    <div class="slide1_wrapper">
+                        <div class="slide1_text_wrapper">
+                            <div class="slide1_text_one">
+                                Мой клик
+                            </div>
+                            <div class="slide1_text_two">
+                                Скорость интернета
+                            </div>
+                            <div class="slide1_text_three">
+                                до 40 Мбит/с
+                            </div>
+                            <div class="slide1_text_four">
+                                Отличный вариант для пенсионеров, выполнения определенных задач и работе с файлами различных размеров.
+                            </div>
+                        </div>
+                        <div class="slide1_checkbox_wrapper">
+                            <div class="slide1_checkbox">
+                                <input type="checkbox" name="checkbox1" class="price-checkbox">
+                            </div>
+                            <div class="slide1_checkbox_text">
+                                ТВ + 100 ₽ (пакет “Базовый”)
+                            </div>
+                        </div>
+                        <div class="slide1_price_wrapper">
+                            <div class="slide1_price price-value" data-base-price="399">
+                                399 ₽
+                            </div>
+                            <div class="slide1_price_text">
+                                в месяц
+                            </div>
+                        </div>
+                        <div class="slide1_price_text_two">
+                            *итоговая цена зависит от варианта оплаты и пакета ТВ при необходимости
+                        </div>
+                        <div class="btn_slide1">
+                            <input type="button" onclick="buttonClick(this)" value="Выбрать тариф">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="slide2" data-slide="2">
+                    <div class="slide1_wrapper">
+                        <div class="slide1_text_wrapper">
+                            <div class="slide1_text_one">
+                                Резвый Клик
+                            </div>
+                            <div class="slide1_text_two">
+                                Скорость интернета
+                            </div>
+                            <div class="slide1_text_three">
+                                80-100 Мбит/с
+                            </div>
+                            <div class="slide1_text_four">
+                                Отличный вариант для всей семьи. Общайтесь в соцсетях и смотрите любимые фильмы и сериалы!
+                            </div>
+                        </div>
+                        <div class="slide1_checkbox_wrapper">
+                            <div class="slide1_checkbox">
+                                <input type="checkbox" name="checkbox2" class="price-checkbox">
+                            </div>
+                            <div class="slide1_checkbox_text">
+                                ТВ + 100 ₽ (пакет “Базовый”)
+                            </div>
+                        </div>
+                        <div class="slide1_price_wrapper">
+                            <div class="slide1_price price-value" data-base-price="449">
+                                449 ₽
+                            </div>
+                            <div class="slide1_price_text">
+                                в месяц
+                            </div>
+                        </div>
+                        <div class="slide1_price_text_two">
+                            *итоговая цена зависит от варианта оплаты и пакета ТВ при необходимости
+                        </div>
+                        <div class="btn_slide1">
+                            <input type="button" onclick="buttonClick(this)" value="Выбрать тариф">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="slide3" data-slide="3">
+                    <div class="slide1_wrapper">
+                        <div class="slide1_text_wrapper">
+                            <div class="slide1_text_one">
+                                Мой клик
+                            </div>
+                            <div class="slide1_text_two">
+                                Скорость интернета
+                            </div>
+                            <div class="slide1_text_three">
+                                до 40 Мбит/с
+                            </div>
+                            <div class="slide1_text_four">
+                                Отличный вариант для пенсионеров, выполнения определенных задач и работе с файлами различных размеров.
+                            </div>
+                        </div>
+                        <div class="slide1_checkbox_wrapper">
+                            <div class="slide1_checkbox">
+                                <input type="checkbox" name="checkbox3" class="price-checkbox">
+                            </div>
+                            <div class="slide1_checkbox_text">
+                                ТВ + 100 ₽ (пакет “Базовый”)
+                            </div>
+                        </div>
+                        <div class="slide1_price_wrapper">
+                            <div class="slide1_price price-value" data-base-price="399">
+                                399 ₽
+                            </div>
+                            <div class="slide1_price_text">
+                                в месяц
+                            </div>
+                        </div>
+                        <div class="slide1_price_text_two">
+                            *итоговая цена зависит от варианта оплаты и пакета ТВ при необходимости
+                        </div>
+                        <div class="btn_slide1">
+                            <input type="button" onclick="buttonClick(this)" value="Выбрать тариф">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="slide4" data-slide="4">
+                    <div class="slide1_wrapper">
+                        <div class="slide1_text_wrapper">
+                            <div class="slide1_text_one">
+                                Мой клик
+                            </div>
+                            <div class="slide1_text_two">
+                                Скорость интернета
+                            </div>
+                            <div class="slide1_text_three">
+                                до 40 Мбит/с
+                            </div>
+                            <div class="slide1_text_four">
+                                Отличный вариант для пенсионеров, выполнения определенных задач и работе с файлами различных размеров.
+                            </div>
+                        </div>
+                        <div class="slide1_checkbox_wrapper">
+                            <div class="slide1_checkbox">
+                                <input type="checkbox" name="checkbox4" class="price-checkbox">
+                            </div>
+                            <div class="slide1_checkbox_text">
+                                ТВ + 100 ₽ (пакет “Базовый”)
+                            </div>
+                        </div>
+                        <div class="slide1_price_wrapper">
+                            <div class="slide1_price price-value" data-base-price="399">
+                                399 ₽
+                            </div>
+                            <div class="slide1_price_text">
+                                в месяц
+                            </div>
+                        </div>
+                        <div class="slide1_price_text_two">
+                            *итоговая цена зависит от варианта оплаты и пакета ТВ при необходимости
+                        </div>
+                        <div class="btn_slide1">
+                            <input type="button" onclick="buttonClick(this)" value="Выбрать тариф">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer container>
+            <div class="stick"></div>
+            <div class="footer_wrapper">
+                <a href="#">
+                    <div class="logo_footer">
+                        <img src="img/logo.svg" alt="logo_footer">
+                    </div>
+                </a>
+                <div class="text_footer">
+                    © 2018–2022 ООО «К-Телеком»
+                </div>
+                <div class="socials_footer">
+                    <div class="instagram">
+                        <a href="https://www.instagram.com/" target="_blank"><img src="/img/instagram.png" alt="instagram"></a>
+                    </div>
+                    <div class="youtube">
+                        <a href="https://www.youtube.com/" target="_blank"><img src="/img/youtube.png" alt="youtube"></a>
+                    </div>
+                    <div class="vk">
+                        <a href="https://vk.com/" target="_blank"><img src="/img/vk.png" alt="vk"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="stick2"></div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="/js/main.js"></script>
+</body>
+
+</html>

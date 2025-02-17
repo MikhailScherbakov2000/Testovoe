@@ -1,0 +1,29 @@
+@font-face {
+    font-family: CeraRoundProBlack;
+    src: url(/fonts/CeraRoundPro-Black.otf);
+}
+
+@font-face {
+    font-family: CeraRoundProBold;
+    src: url(/fonts/CeraRoundPro-Bold.otf);
+}
+
+@font-face {
+    font-family: CeraRoundProLight;
+    src: url(/fonts/CeraRoundPro-Light.otf);
+}
+
+@font-face {
+    font-family: CeraRoundProMedium;
+    src: url(/fonts/CeraRoundPro-Medium.otf);
+}
+
+@font-face {
+    font-family: CeraRoundProRelugar;
+    src: url(/fonts/CeraRoundPro-Regular.otf);
+}
+
+@font-face {
+    font-family: CeraRoundProThin;
+    src: url(/fonts/CeraRoundPro-Thin.otf);
+}
